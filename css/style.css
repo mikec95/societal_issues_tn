@@ -1,0 +1,113 @@
+/* GLOBAL */
+* {
+  scroll-behavior: smooth !important;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sarabun', sans-serif;
+}
+html {
+  scroll-padding-top: 4rem;
+  scroll-behavior: smooth !important;
+}
+body {
+  position: relative;
+}
+footer,
+.parent-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header a,
+.statistics p {
+  text-decoration: none;
+  color: #f6f1f1;
+}
+
+.statistics,
+.government,
+.solutions,
+.help,
+.contact {
+  border: black;
+  border-style: solid;
+  display: flex;
+  height: 100vh;
+  padding: 50px;
+  background-color: #f6f1f1;
+}
+
+/* NAVBAR/HEADER */
+#navbar {
+}
+.navbar {
+  background-color: #146c94;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  position: sticky;
+  top: 0;
+}
+.navbar ul li {
+  font-variant: small-caps;
+  list-style: none;
+  display: inline-block;
+  padding: 0 1.5rem;
+  border-radius: 100rem;
+}
+.navbar ul a {
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: all 0.3s ease 0s;
+  border-radius: 100;
+  align-items: center;
+  text-decoration: none;
+}
+.navbar ul li:hover a,
+.navbar ul li a:active {
+  color: #f6f1f1;
+  text-decoration: underline;
+}
+
+/* STATISTICS SECTION (PICTURE AND INTRO) */
+.statistics {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.statistics p {
+  color: #f6f1f1;
+  font-variant: small-caps;
+  text-align: left;
+  font-size: 5rem;
+  display: inline;
+  word-wrap: normal;
+}
+
+#statistics {
+}
+
+/* CONTACT SECTION */
+.contact-form {
+  width: 100%;
+  display: grid;
+  padding: 5rem;
+  border: solid black;
+}
+.contact-form h1 {
+  color: #146c94;
+}
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background: #ffffff;
+  border: 10px solid #f2f2f2;
+}
+#contact {
+}
+
+/* FOOTER */
+footer {
+  height: 4%;
+}
