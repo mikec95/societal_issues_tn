@@ -33,11 +33,22 @@ header a,
   border-style: solid;
   display: flex;
   height: 100vh;
-  padding: 50px;
   background-color: #f6f1f1;
 }
 
-/* NAVBAR/HEADER */
+.navbar {
+  width: 100%;
+  background-color: #146c94;
+  top: 0;
+}
+#navbar nav {
+  background-color: #146c94;
+}
+#navbar nav .navbar-nav .nav-link:hover {
+  color: #f6f1f1;
+  text-decoration: underline;
+}
+/* NAVBAR/HEADER
 #navbar {
 }
 .navbar {
@@ -67,7 +78,7 @@ header a,
 .navbar ul li a:active {
   color: #f6f1f1;
   text-decoration: underline;
-}
+} */
 
 /* STATISTICS SECTION (PICTURE AND INTRO) */
 .statistics {
